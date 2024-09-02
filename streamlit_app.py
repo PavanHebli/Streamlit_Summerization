@@ -23,7 +23,7 @@ def LLMCallFunc(llm):
     summary = chain.invoke(docs)
     return summary["output_text"]
 
-st.title('Text Summerizer using LangChain & Groq')
+st.title('Text Summerizer using LangChain')
 # del os.environ['GROQ_API_KEY']
 # if not check_env_var('GROQ_API_KEY'):
 #     os.environ["GROQ_API_KEY"] = getpass.getpass()
