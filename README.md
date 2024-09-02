@@ -10,4 +10,6 @@ Same goes with [OpenAI](https://platform.openai.com/docs/overview).
 
 store the newly generated API keys on your machine to use them on the streamlit application
 
-! [snapshot](snapshot.png)
+### App URL: https://llmportfolio.streamlit.app/
+
+! [https://llmportfolio.streamlit.app/](snapshot.png)
