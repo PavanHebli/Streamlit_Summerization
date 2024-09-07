@@ -23,4 +23,4 @@ You can access the application at: [https://llmportfolio.streamlit.app/](https:/
 
 Below is a snapshot of the application:
 
-<img src="snapshot.png" alt="Application Snapshot" width="800">
+<img src="demo.gif" alt="Application Snapshot" width="850">

@@ -23,16 +23,12 @@ def LLMCallFunc(llm):
     summary = chain.invoke(docs)
     return summary["output_text"]
 
-st.title('Text Summerizer using LangChain')
-# del os.environ['GROQ_API_KEY']
-# if not check_env_var('GROQ_API_KEY'):
-#     os.environ["GROQ_API_KEY"] = getpass.getpass()
-#     llm_api = st.text_input("Groq or other LLM API Key", type="password")
+st.title('Summarize It') 
 option = st.selectbox(
     "Select the API provider ",
     ("Selection", "Groq", "OpenAI")
 )
-llm_api = st.text_input("Groq or other LLM API Key", type="password")
+llm_api = st.text_input("LLM API Key", type="password")
 
 source_text = st.text_area("Source Text", height=200)
 # Check if the 'Summarize' button is clicked
